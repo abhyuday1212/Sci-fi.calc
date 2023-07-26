@@ -1,0 +1,254 @@
+/* css */
+* {
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+    text-align: center;
+    font-size: 18px;
+    box-sizing: border-box;
+
+}
+
+.top {
+    position: relative;
+    left: -15px;
+}
+
+header {
+    color: azure;
+}
+
+.header_title {
+    text-align: center;
+    font-size: xxx-large;
+}
+
+.main {
+    position: relative;
+    left: 30px;
+    overflow-x: hidden;
+}
+
+body {
+    display: block;
+    background-image: url(img/bg.jpg);
+    background-repeat: no-repeat;
+    height: fit-content;
+    width: 100%;
+}
+
+.img1 {
+    height: 100vh;
+    width: 100vw;
+}
+
+.img_logo {
+    height: 36px;
+    width: 64px;
+    margin-top: 20px;
+}
+
+.container {
+    background-color: none;
+    margin: 0 auto;
+    max-width: 400px;
+    border-radius: 10px;
+    margin-top: 65px;
+    height: 100%;
+}
+
+#screen {
+    position: relative;
+    top: -70px;
+    margin: 4px auto;
+    width: 120%;
+    left: -60px;
+    height: 6rem;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid rgb(219, 168, 0);
+    background-color: white;
+    border-radius: 10px;
+    overflow-x: scroll;
+    overflow-y: visible;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+#screen:hover {
+    border: 2px solid green;
+}
+
+#screen::-webkit-scrollbar {
+    display: none;
+}
+
+#input,
+#result {
+    margin: auto;
+    width: 100%;
+    height: 3rem;
+    max-width: 768px;
+    text-align: left;
+    border: none;
+}
+
+#input {
+    font-size: 20px;
+    padding-top: 16px;
+    margin-top: -13px;
+    word-spacing: 0.07em;
+}
+
+#result {
+    font-size: 25px;
+}
+
+#memory {
+    position: absolute;
+    font-size: 18px;
+    top: 12px;
+    right: 14px;
+}
+
+button,
+.bottom-buttons {
+    width: 6.5rem;
+    height: 3rem;
+    border: none;
+    border-radius: 10px;
+    margin: 1px 1px;
+}
+
+button:hover,
+.bottom-buttons {
+    cursor: pointer;
+    background-color: #a87861a9;
+}
+
+.table {
+    margin: auto;
+    width: 99%;
+    overflow-x: hidden;
+}
+
+td {
+    width: 100rem;
+    margin: 100px;
+}
+
+.ac {
+    background-color: #eb981b;
+}
+
+#orange {
+    height: 6rem;
+    background-color: #eb981b;
+    color: white;
+    font-weight: bold;
+}
+
+#equal {
+    height: 6rem;
+    background-color: #eb981b;
+    color: white;
+    font-weight: bold;
+}
+
+.white {
+    font-weight: bold;
+    background-color: #cdcdcd;
+}
+
+.gery {
+    background-color: #85b1a5;
+}
+
+.white:hover {
+    background-color: #f0f0f0;
+}
+
+.more {
+    background-color: #c7c7c7;
+}
+
+.more:hover {
+    background-color: #bdbbbb;
+}
+
+.light {
+    background-color: #b5b0d3;
+}
+
+.light:hover {
+    background-color: #f3cece;
+}
+
+#equals:hover {
+    background-color: #3b4ce3;
+}
+
+#topside,
+#downside {
+    height: 5px;
+}
+
+#calc {
+    position: relative;
+    top: -70px;
+    left: -250px;
+    height: 10rem;
+}
+
+.twodig {
+    background-color: #7fb9ec;
+}
+
+.m {
+    background: #e1bddc;
+}
+
+.ac:hover {
+    background-color: #ff5151;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .main {
+        left: 0px;
+    }
+
+    #screen {
+        width: 100%;
+        left: 0px;
+    }
+
+    #calc {
+        left: 0px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+    .header_title {
+        font-size: x-large;
+    }
+
+    #screen {
+        height: 4rem;
+        font-size: 16px;
+    }
+
+    #input,
+    #result {
+        height: 2rem;
+        font-size: 16px;
+    }
+
+    button,
+    .bottom-buttons {
+        width: 4.5rem;
+        height: 2.5rem;
+        font-size: 14px;
+    }
+}
