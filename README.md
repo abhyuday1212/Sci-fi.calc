@@ -5,7 +5,7 @@ Sci-Fi Calc is a revolutionary scientific calculator that builds upon the standa
 
 
 # Deployment Link
-- (https://scificalc.netlify.app/)
+- https://scificalc.netlify.app/
 
 # New Features
 - Added Inverse Trigonometric functions: sin-1, cos-1, tan-1
