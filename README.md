@@ -69,7 +69,7 @@ https://github-production-user-asset-6210df.s3.amazonaws.com/115206840/255553683
 
 # Installation
 Clone the Github repository.
-! https://github.com/TusharKesarwani/Front-End-Projects.git
+! https://github.com/abhyuday1212/Sci-fi.calc.git
 
 
 # 🚀 About Me
