@@ -111,8 +111,7 @@ body {
     right: 14px;
 }
 
-button,
-.bottom-buttons {
+button {
     width: 6.5rem;
     height: 3rem;
     border: none;
@@ -120,8 +119,7 @@ button,
     margin: 1px 1px;
 }
 
-button:hover,
-.bottom-buttons {
+button:hover {
     cursor: pointer;
     background-color: #a87861a9;
 }
@@ -214,7 +212,7 @@ td {
 
 /* ------------------------------------------------------------- */
 /* Responsive message for screens below 381px width */
-@media only screen and (max-width: 381px) {
+@media only screen and (max-width: 374px) {
     .top {
         position: relative;
     }
@@ -244,8 +242,8 @@ td {
 
 /* ------------------------------------------------------ */
 
-/* Small devices such as large phones (382px and up) */
-@media only screen and (min-width: 382px) and (max-width: 499px) {
+/* Small devices such as large phones (375px and up) */
+@media only screen and (min-width: 375px) and (max-width: 499px) {
 
     .container {
         position: relative;
@@ -275,14 +273,6 @@ td {
         overflow-y: visible;
     }
 
-    .main-buttons {
-        width: 100%;
-    }
-
-    #equal {
-        grid-column: span 3;
-    }
-
     #input {
         font-size: 18px;
         padding-top: 16px;
@@ -301,17 +291,14 @@ td {
         right: 14px;
     }
 
+
     button {
         font-size: 12px;
-    }
-
-    button,
-    .bottom-buttons {
-        width: 2.8rem;
-        height: 3rem;
+        width: 2.6rem;
+        height: 4rem;
         border: none;
         border-radius: 10px;
-        margin: .8px .8px;
+        margin: .7px .8px;
 
     }
 
@@ -323,32 +310,62 @@ td {
         max-width: 100%;
         height: auto;
         position: relative;
-        left: -4px;
+        left: 0px;
         top: -2px;
     }
 
-    .main-buttons {
-        width: calc(33.33% - 8px);
-        margin: 1px;
-    }
+    /* td {
+        margin: 0px 0px;
+        padding: 0px 0px;
+    } */
 
     .tr5 {
         position: relative;
-        top: -30px;
+        top: 0px;
         left: 0px;
+
     }
 
     .tr6 {
         position: relative;
-        top: -60px;
+        top: 0px;
         left: 0px;
+    }
+
+    .m {
+        position: relative;
+        right: -2px;
+        width: 3.5rem;
+    }
+
+    #side1,
+    #side2,
+    #side3,
+    #side4 {
+        position: relative;
+        top: 80px;
+    }
+
+    #side1 {
+        position: relative;
+        right: 49px;
+    }
+
+    .main-buttons {
+        width: 100%;
     }
 
     #equal {
         position: relative;
-        top: 27px;
-        right: 2px;
-        height: 114px;
+        top: 77px;
+        right: 0px;
+        height: 72px;
+    }
+
+    tr .tr5 td .main-buttons {
+        height: 0px;
+        padding: 0px 0px;
+        margin: 0px 0px;
     }
 }
 
@@ -383,11 +400,6 @@ td {
         overflow-y: visible;
     }
 
-    .main-buttons {
-        width: 100%;
-        /* margin: 1px 0; */
-    }
-
     #input {
         font-size: 18px;
         padding-top: 16px;
@@ -406,14 +418,14 @@ td {
         right: 14px;
     }
 
-    button {
-        font-size: 12px;
+    .main-buttons {
+        width: 100%;
     }
 
-    button,
-    .bottom-buttons {
-        width: 3.7rem;
-        height: 3rem;
+    button {
+        font-size: 12px;
+        width: 3.6rem;
+        height: 5.6rem;
         border: none;
         border-radius: 10px;
         margin: .8px .8px;
@@ -431,7 +443,7 @@ td {
         align-items: center;
         position: relative;
         top: 6px;
-        left: -58px;
+        left: -55px;
     }
 
     .main-buttons {
@@ -441,23 +453,44 @@ td {
 
     .tr5 {
         position: relative;
-        top: -29px;
+        top: -5px;
         left: 0px;
     }
 
     .tr6 {
         position: relative;
-        top: -59px;
+        top: -11px;
         left: 0px;
+    }
+
+    .m {
+        position: relative;
+        right: -2px;
+        width: 4.8rem;
+    }
+
+    #side1,
+    #side2,
+    #side3,
+    #side4 {
+        position: relative;
+        top: 107px;
+    }
+
+    #side1 {
+        position: relative;
+        right: 65px;
+    }
+
+    .main-buttons {
+        width: 100%;
     }
 
     #equal {
         position: relative;
-        top: 29px;
-        right: -2px;
-        height: 114px;
+        top: 104px;
+        right: 0px;
     }
-
 }
 
 /* -------------------------------------------------- */
