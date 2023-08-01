@@ -91,6 +91,8 @@ https://github-production-user-asset-6210df.s3.amazonaws.com/115206840/255553683
 Clone the Github repository.
 ! https://github.com/abhyuday1212/Sci-fi.calc.git
 
+# License
+[MIT License](LICENSE)
 
 # 🚀 About Me
 Hey folks! 👋 I'm Abhyuday Pratap Singh, a passionate technologist driven by the art of creating immersive and visually captivating web experiences. 
