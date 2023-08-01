@@ -251,11 +251,10 @@ td {
 
     .top {
         position: relative;
-        top: -16px;
-        left: 2px;
+        top: -20px;
+        left: -15px;
         font-size: 2rem;
         align-items: center;
-
     }
 
     #screen {
@@ -572,7 +571,6 @@ td {
 
     .main-buttons {
         width: 100%;
-        /* margin: 1px 0; */
     }
 
     button {
@@ -634,9 +632,36 @@ td {
 
 /* -------------------------------------------------- */
 
-/* Large devices such as laptops (1025px and up) */
+/* Large devices such as laptops (910px and up) */
 @media only screen and (min-width: 910px) and (max-width: 6149px) {
-    /* default css */
+    .container {
+        position: relative;
+    }
+
+    .top {
+        position: relative;
+        top: -20px;
+        font-size: 2rem;
+        align-items: center;
+    }
+
+    #screen {
+        position: relative;
+        top: -93px;
+        margin: 4px auto;
+        width: 120%;
+        left: -60px;
+        height: 6rem;
+        text-align: center;
+        padding: 5px;
+        border: 1px solid rgb(219, 168, 0);
+        background-color: white;
+        border-radius: 10px;
+        overflow-x: scroll;
+        overflow-y: visible;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
 }
 
 
