@@ -338,8 +338,6 @@ td {
         width: 3.5rem;
     }
 
-    #side1,
-    #side2,
     #side3,
     #side4 {
         position: relative;
@@ -348,7 +346,13 @@ td {
 
     #side1 {
         position: relative;
+        top: 156px;
         right: 49px;
+    }
+
+    #side2 {
+        position: relative;
+        top: 1px;
     }
 
     .main-buttons {
@@ -469,8 +473,6 @@ td {
         width: 4.8rem;
     }
 
-    #side1,
-    #side2,
     #side3,
     #side4 {
         position: relative;
@@ -479,7 +481,13 @@ td {
 
     #side1 {
         position: relative;
+        top: 213px;
         right: 65px;
+    }
+
+    #side2 {
+        position: relative;
+        top: 1px;
     }
 
     .main-buttons {
