@@ -86,9 +86,12 @@ https://github-production-user-asset-6210df.s3.amazonaws.com/115206840/255553683
 
 ![Before](https://user-images.githubusercontent.com/115206840/253905921-7e839104-4dc0-48c9-9352-4c02bc5bc3ca.jpg)
 
+# Deployment link
+https://scificalc.netlify.app/
+
 
 # Installation
-Clone the Github repository.
+Clone the GitHub repository.
 ! https://github.com/abhyuday1212/Sci-fi.calc.git
 
 # License
